@@ -1,6 +1,7 @@
 
 $(document).ready(function () {
   console.clear();
+  $('.image-popup img').attr("src","image.png");
   var sounds = {
     'error': new Audio('song.mp3'),
     'success': new Audio('song.mp3'),
